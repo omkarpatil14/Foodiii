@@ -1,9 +1,7 @@
 <div align="center">
     <h1 style="color: tomato;">Foodiii.com</h1>
 
-This application is deployed on Render. Please check it out [here](https://merneats-0xob.onrender.com).
 
-![MernEats](frontend/src/assets/merneats-thumbnail.png)
 
 </div>
 
