@@ -1,0 +1,110 @@
+/* Base styles for the login popup */
+.login-popup {
+    position: fixed; /* Changed to fixed to ensure it stays in view */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+    place-items: center; /* Centers the popup container */
+}
+
+.login-popup-container {
+    width: 90%;
+    max-width: 330px; /* Adjusted for responsiveness */
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-popup-inputs input {
+    border: 1px solid #d2ce58;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; /* Ensures inputs take full width of container */
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #d2ce58;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%; /* Ensures button takes full width of container */
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input {
+    margin-top: 5px;
+}
+
+.login-popup p span {
+    color: #d2ce58;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .login-popup-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .login-popup-title img {
+        width: 20px; /* Increase size for easier interaction on small screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .login-popup-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .login-popup-title img {
+        width: 24px; /* Increase size for easier interaction on very small screens */
+    }
+
+    .login-popup-inputs input {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+
+    .login-popup-container button {
+        padding: 12px; /* Adjust padding for button */
+    }
+}

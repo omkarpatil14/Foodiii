@@ -1,0 +1,7 @@
+.arrange {
+    display: flex;       /* Use flexbox to arrange items in a row */
+    flex-direction: row;
+    gap: 16px;           /* Adds space between the items (you can adjust the value as needed) */
+  }
+  
+  
