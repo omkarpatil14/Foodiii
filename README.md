@@ -44,7 +44,7 @@ Mern-Eats.com is a full-stack web application that enables users to browse throu
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/rajeevkrS/Food-Delivery-App
+   git clone https://github.com/omkarpatil14/Foodiii
    cd food-delivery-app
    ```
 
